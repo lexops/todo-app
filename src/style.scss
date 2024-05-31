@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+dialog {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sidebar {
+  height: 100vh;
+  border-right: 2px solid slategray;
+}
+
+.projects {
+  width: 250px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.project-name {
+  width: 100%;
+}
+
+form#new-project,
+form#new-todo {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
